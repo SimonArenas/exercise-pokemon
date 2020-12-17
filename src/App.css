@@ -2,37 +2,58 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navbar {
+  background-color: #eb4d4b;
+  color: #feca1b;
+}
+.navbar h1 {
+  margin: 0;
+  padding: 10px;
+  text-align: left;
+}
+.search {
+  margin: 10px;
+}
+.search input {
+  border-color: #eb4d4b;
+  border-radius: 5px;
+  color: #2c2c2c;
+  font-size: 17px;
+  margin: 10px;
+  outline: none;
+  padding: 15px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.search button {
+  background-color: #feca1b;
+  color: #eb4d4b;
+  border: none;
+  padding: 15px 20px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.search button:focus {
+  outline: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.container {
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-color: #c7ecee;
+  border-radius: 5px;
+  display: flex;
+  margin: 15px auto;
+  padding: 15px;
+  width: 450px;
 }
 
-.App-link {
-  color: #61dafb;
+.pokemon-information {
+  text-align: left;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.pokemon-information h1 {
+  color: #eb4d4b;
+  text-transform: uppercase;
+}
+.pokemon-information p {
+  color: #f0932b;
 }
